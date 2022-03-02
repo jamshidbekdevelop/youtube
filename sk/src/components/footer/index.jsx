@@ -5,16 +5,16 @@ export const Movie = () => {
     const [state, setState]= useContext(MovieContext)
     return (
         <Box>
-            {state.map((value)=>{
+            {state.map(({ id,src, title, user, view })=>{
                     return(
-                        <Box.K>
-                            <Box.Img></Box.Img>
+                        <Box.K key={id}>
+                            <Box.Img src={user.img}></Box.Img>
                             <Box.D>
-                                <Box.I></Box.I>
+                                <Box.I src={src}/>
                                 <div>
-                                    <Box.T>{value.title}</Box.T>
-                                    <Box.N>{value.user.name} {value.user.surname}</Box.N>
-                                    <Box.V>{value.view  }</Box.V>
+                                    <Box.T>{title}</Box.T>
+                                    <Box.N>{user.name} {user.surname}</Box.N>
+                                    <Box.V>{view }</Box.V>
                                 </div>
                             </Box.D>
                             

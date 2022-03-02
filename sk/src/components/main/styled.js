@@ -10,10 +10,11 @@ import {ReactComponent  as img1} from '../../assats/assat/Vector.svg'
 export const Div =styled.div`
 display: flex;
 justify-content: space-between;
-box-sizing: border-box;
-height: 65px;
 align-items: center;
-/* background-color: red; */
+width: 100%;
+height: auto;
+background-color: white;
+opacity: 0.95;
 `
 Div.DD=styled.div`
 display: flex;
@@ -68,6 +69,7 @@ padding-left: 15px;
 margin: 0;
 width: 546px;
 height: 30px;
+font-size: 15.5px;
 `
 Div.Img1=styled(img1)`
 width:70%;
