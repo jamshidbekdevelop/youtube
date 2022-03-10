@@ -25,7 +25,7 @@ export const Main = () => {
         </Div.K>
       </Div.M>
       <Div.B>
-        <Div.Input placeholder={'Search'} onChange={onChange} />
+        <Div.Input placeholder={"Search"} onChange={onChange} />
         <Div.Button1>
           <Div.Img1 />
         </Div.Button1>
@@ -37,7 +37,7 @@ export const Main = () => {
           <Div.Img5 />
           <Div.Img6>
             <img
-              border-radius={"50%"}
+              borderRadius={"50%"}
               width={"100%"}
               height={"100%"}
               src={jsh}
